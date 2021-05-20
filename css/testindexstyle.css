@@ -91,5 +91,8 @@ a[href*='experience']{
 a[href*='education']{
     color: #333887;
 }
+a:hover{
+    color: white;
+}
 
 /* END OF HEAD / NAV AREA */
