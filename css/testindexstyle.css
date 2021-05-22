@@ -8,6 +8,7 @@ html, body {
     padding: 0;
   }
   
+
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -73,7 +74,7 @@ html, body {
      border: 1px solid orange;
  }
 
-  .nav ul a:hover {
+  .nav ul li a:hover {
     background: #aebdcf;
     cursor: pointer;  
     font-size: 36px;
@@ -91,8 +92,6 @@ a[href*='experience']{
 a[href*='education']{
     color: #333887;
 }
-a:hover{
-    color: white;
-}
 
+/* Things like :hover, :visited, :focus are called pseudo classes */
 /* END OF HEAD / NAV AREA */
