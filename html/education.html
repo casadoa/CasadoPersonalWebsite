@@ -1,93 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Personal Portfolio</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="style.css" type="text/css" rel="stylesheet">
-  </head>
-  <!-- CHANGE PATH TO CSS FILE-->
-  <body>
-    <header class="container">
-      <!-- Navigation Bar -->
-        <nav role="navigation" class="nav">
-          <ul class="navigate">
-           <li><h1 class="name">Andres Casado</h1></li>
-           <li><a href="../html/index.html">Home</a></li>
-           <li><a href="../html/about.html">About</a></li>  
-           <li><a href="../html/contact.html">Contact</a></li>
-           <li><a href="../html/experience.html">Experience</a></li>
-         </ul>
-       </nav>
-   </header>
-
-<!-- Change everything below this-->
-    <section class="jumbotron">
-      <div class="row">
-        <h2>Education</h2>
-      </div>
-    </section>
-    <section class="container">
-      <div class="col-sm-6">
-        <p>Cliton High School</p>
-        <img class="portrait" scr="#" alt="CHS"/>
-        <ul>
-          <li>3.3 GPA</li>
-          <li>Captain of the Bowling Team</li>
-          <li>Varsity Bowling - 2 years</li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <p>William Paterson University</p>
-        <img class="portrait" scr="https://collegesimply.imgix.net/orig/20200719/william-paterson-university-of-new-jersey-187444.jpg?auto=format&auto=compress&auto=true&fit=crop&max-w=2400" alt="William Paterson University"/>
-        <ul>
-          <li>3.0 GPA</li>
-          <li>Computer Science Major</li>
-        </ul>
-      </div>
-
-    </section>
-    <footer class="row">
-      <p class="col-sm-4">&copy; 2020 Andres Casado</p>
-      <div class="col-sm-2">
-        <a href="https://medium.com/" taget="blank">Medium</a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://github.com/" target="blank">GitHub</a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://www.linkedin.com/" target="blank">LinkedIn</a>
-      </div>
-      
-    </footer>
-
-
-  </body>
-</html>
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
     <title>Andres' Personal Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="../css/edustyle.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="nav-bar">
+    
+    <header class="header_container">
        <!-- Navigation Bar -->
-       <div class="nav">
-         <nav role="navigation" class="navi">
+         <nav role="navigation" class="nav">
            <ul class="navigate">
-            <li><a href="../html//index.html">Home</a></li>
-            <li><a href="../html//about.html">About</a></li>  
-            <li><a href="../html//contact.html">Contact</a></li>
-            <li><a href="../html//experience.html">Experience</a></li>
+            <li><h1 class="name">Andres Casado</h1></li>
+            <li><a href="../html/projects.html">Projects</a></li>  
+            <li><a href="../html/contact.html">Contact</a></li>
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a href="../html/experience.html">Experience</a></li>
           </ul>
         </nav>
-      </div>
     </header>
+
+    <main class="middle">
+      <section class="page-title">
+        <div class="row">
+          <h2>Education</h2>
+        </div>
+      </section>
+      <section class="container">
+        <div class="hschool">
+          <p>Cliton High School</p>
+          <img class="portrait" src="../images/chsimg.webp" alt="CHS"/>
+          <ul>
+            <li>3.3 GPA</li>
+            <li>Captain of the Bowling Team</li>
+            <li>Varsity Bowling - 2 years</li>
+          </ul>
+        </div>
+        <div class="college">
+           
+          <p>William Paterson University</p>
+          <img class="portrait" src="../images/wpunj.jpeg" alt="William Paterson University"/>
+         <ul>
+            <li>3.0 GPA</li>
+            <li>Computer Science Major</li>
+          </ul>
+        </div>
+  
+      </section>
+  </main>
+
+  <footer class="footcontainer">
+    <p class="fchild">&copy; 2021 Andres Casado</p>
+    <div class="fchild">
+      <a href="https://medium.com/#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImQzZmZiYjhhZGUwMWJiNGZhMmYyNWNmYjEwOGNjZWI4ODM0MDZkYWMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MjEzNjg0NDYsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMDEwNDAyNTM3MTc4NDg3MjQ0NyIsImVtYWlsIjoiY2FzYWRvLmEwNUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6ImFuZHJlcyBjYXNhZG8iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFUWEFKeUt4c1ZwSWpTcTBXeGZxUjF5Q0F3b2pENkdoSVMxUTlKVkdXV2o9czk2LWMiLCJnaXZlbl9uYW1lIjoiYW5kcmVzIiwiZmFtaWx5X25hbWUiOiJjYXNhZG8iLCJpYXQiOjE2MjEzNjg3NDYsImV4cCI6MTYyMTM3MjM0NiwianRpIjoiYzFjYzZhNzQ5MDk1ODg5YWM5MmUxNTBlNWMyMjcyYWZhNzhiODcxMiJ9.dVkeLyp2dz6FxgcPakfVwQukPAWid5Ea8HqqXONjWjg9KoPu6Wo7Krp448OpR33qIfuNYVgnre_SXyOpXfZSEW4Wv6ce9mSJv32U5fTmqwCDg7XImUgmSje9w5W53gxFGmDCEuIJGKbuKJeawb-Hp2F_eqsVgrFHsTwyKjYTbuUuCh8FwjdD8xgNbdQtM3LsJdxHb1GchXsxnWBXZN49P083Zq3a7Kj7ySp8pLCqVHI5FBf7IyPa4zSMDJnovOUIqgPs89wsn-hBqdM45jr9OzSKy9Loo6kXIKkymNJEX8_dhfOLxPfXinFYKXsMoxi6KY5LnT3C-JqO18ly6R4nWQ" taget="blank">Medium</a>
+    </div>
+    <div class="fchild">
+      <a href="https://github.com/casadoa" target="blank">GitHub</a>
+    </div>
+    <div class="fchild">
+      <a href="www.linkedin.com/in/andres-casado-63a733109" target="blank">LinkedIn</a>
+    </div>
+    
+  </footer>
+
   </body>
 </html>
