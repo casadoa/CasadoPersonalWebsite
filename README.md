@@ -23,5 +23,5 @@ As well as some links to
 * A link to Medium an open publishing platform
 
 
-#### Click on this link below view my web page
+#### Click on this link below to view my web page
 (https://andrescasado.tech)
