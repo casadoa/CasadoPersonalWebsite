@@ -13,5 +13,5 @@ A couple things about my site as of right now they include
 
 As well as some links to
 * My GitHub
-* LinkedIn
-* A link to Medium a open publishing platform
+* My LinkedIn
+* A link to Medium an open publishing platform
