@@ -3,6 +3,12 @@
 
 ### My name is Andres Casado and this is my online portfolio web page
 
+
+**Programming Languages included in this site are**
+* HTML5
+* CSS
+* JavaScript
+
 A couple things about my site as of right now they include
 1. A projects page
 2. My education
@@ -15,3 +21,7 @@ As well as some links to
 * My GitHub
 * My LinkedIn
 * A link to Medium an open publishing platform
+
+
+#### Click on this link below view my web page
+(https://andrescasado.tech)
