@@ -1,93 +1,90 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    background-image: url('../images/starburst.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  /* HEADER / NAV AREA*/
-  header {
-    background-color: black;
-    height: 100px;
-  }
-  
-  
-  header h1 {
-    color: #17419d;
-    font-size: 50px;
-    margin-right: 15px;
 
-    text-transform: uppercase; 
-    transition-property: font-size;
-    transition-duration: 3s;
-    transition-timing-function: ease-in-out;
-  }
-  
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  background-color: #414a4c;
+}
 
-  header h1:hover {
-    cursor: grab; 
-    font-size: 60px;
-  }
-  header ul{
-    width: 100%;
+/* HEADER / NAV AREA*/
+header {
+  background-color: #414a4c;
+  height: 100px;
+}
 
-    margin: 20px auto;
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    list-style: none;
-    flex-shrink: 1;
-    flex-wrap: wrap;
+
+header h1 {
+  color: #17419d;
+  font-size: 50px;
+  margin-right: 15px;
+
+  text-transform: uppercase; 
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+
+header h1:hover {
+  cursor: grab; 
+  font-size: 60px;
+}
+header ul{
+  width: 100%;
+
+  margin: 20px auto;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+  flex-shrink: 1;
+  flex-wrap: wrap;
 }  
- header li { 
-    letter-spacing: 0.2em;
-    font-family: 'Suez One';
-    flex-grow: 0;
-  }
+header li { 
+  letter-spacing: 0.2em;
+  font-family: 'Suez One';
+  flex-grow: 0;
+}
 
- a{
-    color: rgb(23, 65, 157);
-    font-size: 1em;
-    padding: 5px 10px;
-    margin-top: 0px;
-     transition-property: background, font-size;
-     transition-duration: 1.5s;
-     transition-timing-function: ease-in-out;
- }
+a{
+  color: rgb(23, 65, 157);
+  font-size: 1em;
+  padding: 5px 10px;
+  margin-top: 0px;
+   transition-property: background, font-size;
+   transition-duration: 1.5s;
+   transition-timing-function: ease-in-out;
+}
 
-  .nav ul li a:hover {
-    background: #aebdcf;
-    cursor: pointer;  
-    font-size: 30px;
-  }
+.nav ul li a:hover {
+  background: #aebdcf;
+  cursor: pointer;  
+  font-size: 30px;
+}
 
-  a[href*='projects']{
-      color: #4f55af;
-  }
-  a[href*='education']{
-    color: #505397;
+a[href*='projects']{
+    color: #6d74d1;
+}
+a[href*='education']{
+  color: #6064b1;
 }
 a[href*='experience']{
-    color: #7B80D1;
+  color: #7B80D1;
 }
 a[href*='index']{
-    color: #6761E6;
+  color: #6761E6;
 }
 
 /* Things like :hover, :visited, :focus are called pseudo classes */
@@ -97,45 +94,57 @@ a[href*='index']{
 /* MAIN INFO */
 
 .middle {
-  font-size: 24px;
-  line-height: 1.4;
-  margin-bottom: 10px;
+font-size: 24px;
+line-height: 1.4;
+margin-bottom: 10px;
+background-image: url("../images/planetofclouds.jpeg");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .row h2 {
-  font-size: 24px;
-  position: relative;
-  padding-left: 50px;
-  padding-top: 100px;
-  height: 100px;
-  font-size: 40px;
-  width: 100%;
+font-size: 24px;
+position: relative;
+padding-left: 50px;
+padding-top: 100px;
+height: 100px;
+font-size: 40px;
+width: 100%;
+color: #ffffff;
 }
 
 
 .container {
-  display: flex;
-  font-family: 'Changa One', Courier, 'monospace';
-  background-color: white;
-  height: 400px;
-  width: 100%;
-  align-items: center;
-  color: rgb(1, 2, 3)
+display: flex;
+font-family: 'Changa One', Courier, 'monospace';
+height: 400px;
+width: 100%;
+align-items: center;
+color: #ffffff;
 }
 
 .contact {
-  display: flex;
+display: flex;
+font-size: 40px;
+line-height: 2em;
+padding-bottom: 5px;
+background-color: #414a4c;
+opacity: 0.8;
+}
+.contact ul li{
+  opacity: 1;
 }
 
 #center {
-  justify-content: center;
+justify-content: center;
 }
 .middle p {
-  letter-spacing: 0.2em;
+letter-spacing: 0.2em;
 }
 .middle ul{
-  list-style: none;
-  letter-spacing: 0.2em;
+list-style: none;
+letter-spacing: 0.2em;
 }
 
 /*   MAIN END   */
@@ -144,20 +153,20 @@ a[href*='index']{
 /*    FOOTER    */
 
 .footcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 10px 0px;
-  font-size: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 30px 10px 0px;
+font-size: 16px;
 }
 
 
 
 
 footer a {
-  font-size: 18px;
-  color: #09101f;
-  margin: 0 10px;
+font-size: 18px;
+color: #09101f;
+margin: 0 10px;
 }
 
 

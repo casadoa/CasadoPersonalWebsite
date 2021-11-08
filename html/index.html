@@ -6,7 +6,8 @@
     <link href="../css/indexstyle.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="../js/script.js" async></script>
 
   </head>
   <body>
@@ -15,17 +16,17 @@
        <!-- Navigation Bar -->
          <nav role="navigation" class="nav">
            <ul class="navigate">
-            <li><h1 class="name">Andres Casado</h1></li>
+            <li><h1 class="name" id="fname">Andres Casado</h1></li>
             <li><a href="../html/projects.html">Projects</a></li>  
             <li><a href="../html/contact.html">Contact</a></li>
             <li><a href="../html/education.html">Education</a></li>
             <li><a href="../html/experience.html">Experience</a></li>
-            <li><a href="../html/testindex.html">Test_page</a></li>
+            <li class='hide'><a href="../html/testindex.html">Test_page</a></li>
           </ul>
         </nav>
     </header>
 
-    <main class="middle">
+    <main class="middle" onclick="newStyle();">
       <h2 class="message">Welcome to my Online Portfolio</h2>
       <h2 class="message">Programmer Learning One Step at a Time:</h2>
       <h3 class="message">HTML5, CSS, Javascript, Java, C++</h3>

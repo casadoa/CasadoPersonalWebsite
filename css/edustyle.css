@@ -1,104 +1,105 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    background-image: url('#');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
-  }
-  
-  /* HEADER / NAV AREA*/
-  header {
-      /*
-    background: url('../images/navbackground.jpg') no-repeat center center; 
-    background-size: cover;
-    */
-    /*background-color: white;*/
-    height: 100px;
-    /*text-align: center; */
-    /*border: 1px solid green;*/
-  }
-  
-  
-  header h1 {
-    color: #17419d;
-    font-size: 50px;
-    margin-right: 15px;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  background-image: url('#');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    text-transform: uppercase; 
-    transition-property: font-size;
-    transition-duration: 3s;
-    transition-timing-function: ease-in-out;
+  background-color: #414a4c;
+}
 
-    /*border: 3px solid purple;*/
-  }
-  
+/* HEADER / NAV AREA*/
+header {
+    /*
+  background: url('../images/navbackground.jpg') no-repeat center center; 
+  background-size: cover;
+  */
+  /*background-color: white;*/
+  height: 100px;
+  /*text-align: center; */
+  /*border: 1px solid green;*/
+}
 
-  header h1:hover {
-    cursor: grab; 
-    font-size: 60px;
-  }
-  header ul{
-    width: 100%;
 
-    margin: 20px auto;
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    list-style: none;
-    flex-shrink: 1;
-    flex-wrap: wrap;
+header h1 {
+  color: #17419d;
+  font-size: 50px;
+  margin-right: 15px;
+
+  text-transform: uppercase; 
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+
+  /*border: 3px solid purple;*/
+}
+
+
+header h1:hover {
+  cursor: grab; 
+  font-size: 60px;
+}
+header ul{
+  width: 100%;
+
+  margin: 20px auto;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+  flex-shrink: 1;
+  flex-wrap: wrap;
 }  
- header li { 
-    /*border: 1px solid red;*/
-    letter-spacing: 0.2em;
-    font-family: 'Suez One';
-    flex-grow: 0;
-  }
+header li { 
+  /*border: 1px solid red;*/
+  letter-spacing: 0.2em;
+  font-family: 'Suez One';
+  flex-grow: 0;
+}
 
- a{
-    color: rgb(23, 65, 157);
-    font-size: 1em;
-    padding: 5px 10px;
-    margin-top: 0px;
-     transition-property: background, font-size;
-     transition-duration: 1.5s;
-     transition-timing-function: ease-in-out; 
-     /*border: 1px solid orange;*/
- }
+a{
+  color: rgb(23, 65, 157);
+  font-size: 1em;
+  padding: 5px 10px;
+  margin-top: 0px;
+   transition-property: background, font-size;
+   transition-duration: 1.5s;
+   transition-timing-function: ease-in-out; 
+   /*border: 1px solid orange;*/
+}
 
-  .nav ul li a:hover {
-    background: #aebdcf;
-    cursor: pointer;  
-    font-size: 30px;
-  }
+.nav ul li a:hover {
+  background: #aebdcf;
+  cursor: pointer;  
+  font-size: 30px;
+}
 
-  a[href*='projects']{
-      color: #4f55af;
-  }
-  a[href*='contact']{
-    color: #505397;
+a[href*='projects']{
+    color: #5e67e6;
+}
+a[href*='contact']{
+  color: #666bcc;
 }
 a[href*='experience']{
-    color: #7B80D1;
+  color: #7e83e4;
 }
 a[href*='index']{
-    color: #6761E6;
+  color: #6761E6;
 }
 
 /* Things like :hover, :visited, :focus are called pseudo classes */
@@ -108,49 +109,58 @@ a[href*='index']{
 /* MAIN INFO */
 
 .middle {
-  font-size: 24px;
-  line-height: 1.4;
-  margin-bottom: 10px;
+font-size: 24px;
+line-height: 1.4;
+margin-bottom: 10px;
+background-image: url("../images/andromeda.jpeg");
+background-size: cover;
+background-position: center;
 }
 
 .row h2 {
-  font-size: 24px;
-  position: relative;
-  left: 50px;
-  margin-top: 100px;
-  height: 100px;
-  font-size: 40px;
-  width: 100%;
-  color: white;
+font-size: 24px;
+position: relative;
+left: 50px;
+margin-top: 100px;
+height: 100px;
+font-size: 40px;
+width: 100%;
+color: white;
 }
 
 .container img {
-  height: 400px;
-  width: auto;
-  opacity: 0.8;
+height: 400px;
+width: auto;
+opacity: 0.8;
 }
 
 .container {
-  display: flex;
-  /*
-  justify-content: center;
-  align-items: center;*/
-  font-family: 'Changa One', Courier, 'monospace';
+display: flex;
+/*
+justify-content: center;
+align-items: center;*/
+font-family: 'Changa One', Courier, 'monospace';
 }
 
 .hschool, .college {
-  width: 50%;
-  display: inline-flex;
-  align-items: center;
-  flex-direction: column;
-  color: rgb(162, 165, 170)
+width: 50%;
+display: inline-flex;
+align-items: center;
+flex-direction: column;
+color: rgb(203, 207, 212)
 }
 .middle p {
-  letter-spacing: 0.2em;
+letter-spacing: 0.2em;
 }
 .middle ul{
-  list-style: none;
-  letter-spacing: 0.2em;
+list-style: none;
+letter-spacing: 0.2em;
+}
+
+.portrait{
+min-width: 400px;
+max-width: 550px;
+height: 400px
 }
 
 /*   MAIN END   */
@@ -159,21 +169,21 @@ a[href*='index']{
 /*    FOOTER    */
 
 .footcontainer {
-  display: flex;
-  justify-content: center;
-  margin: 30px 10px 0px;
-  font-size: 16px;
+display: flex;
+justify-content: center;
+margin: 30px 10px 0px;
+font-size: 16px;
 }
 
 
 footer p {
-  color: white;
+color: white;
 }
 
 footer a {
-  font-size: 18px;
-  color: #ccd3e0;
-  margin: 0 10px;
+font-size: 18px;
+color: #ccd3e0;
+margin: 0 10px;
 }
 
 
