@@ -169,7 +169,7 @@ body {
 
 /* HEADER / NAV AREA*/
 header {
-  margin-top: 10px;
+  margin-top: 50px;
   height: 25%;
   font-family: 'Special Elite';
 }
@@ -177,25 +177,23 @@ header {
 
 header h1 {
   color: #17419d;
-  font-size: 35px;
+  font-size: 95px;
   width: 100%;
 
   text-transform: uppercase; 
   transition-property: font-size;
   transition-duration: 3s;
   transition-timing-function: ease-in-out;
+  margin-bottom: 25px;
 }
 
 .hide {
   display: none;
 }
-header h1:hover {
-  cursor: grab; 
-  font-size: 40px;
-}
+
 ul {
   width: 100%;
-
+  margin-top: 50px;
   margin: 20px auto;
   display: inline-flex;
   justify-content: center;
@@ -208,15 +206,16 @@ ul {
 }  
 
 li { 
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   font-family: 'Special Elite';
   flex-grow: 0;
   margin: 7px;
+  line-height: 3.0em;
 }
 
 a{
   color: rgb(23, 65, 157);
-  font-size: 1em;
+  font-size: 3em;
   padding: 5px 10px;
   margin-top: 0px;
   transition-property: background, font-size;
@@ -227,7 +226,7 @@ a{
 .nav ul li a:hover {
   background: #aebdcf;
   cursor: pointer;  
-  font-size: 20px;
+  font-size: 50px;
 }
 
 a[href*='projects']{
@@ -246,7 +245,8 @@ a[href*='education']{
 /* MAIN INFO */
 
 .middle {
-height: 40%;
+height: 70%;
+min-width: 100%;
 background-image: url("../images/nasa.jpg");
 background-position: center;
 
@@ -258,6 +258,11 @@ justify-content: center;
 align-items: center;
 
 }
+h2.message, h3.message {
+  font-size: 2.4em;
+}
+
+
 
 .message {
 display: flex;
@@ -277,10 +282,12 @@ font-size: 20px;
 .footcontainer {
 display: flex;
 justify-content: center;
-margin: 10px 10px 0px;
-font-size: 12px;
-
+align-items: center;
+flex-direction: column;
+margin: 30px 10px 0px;
+font-size: 2.1em;
 height: 25%;
+line-height: 1.7em;
 }
 
 
@@ -292,6 +299,7 @@ footer a {
 font-size: 14px;
 color: #4683FA;
 margin: 0 10px;
+font-size: 1.3em;
 }
 
 }
